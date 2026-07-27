@@ -2,7 +2,7 @@
 
 This project is a modern, open-source revival of the proprietary "HY-Fit" smart scale application. It interacts with smart scales powered by Chipsea Technologies Bluetooth LE chipsets, accurately reading raw weight data and utilizing the manufacturer's proprietary algorithm to calculate comprehensive body metrics. 
 
-This project was a massive undertaking and I was able to get it complete with the help of google antigravity which was a massive help. 
+This project was a massive undertaking and I was able to get it complete with the help of AI assisted tools such as Google Antigravity. 
 
 ## Project Structure
 
@@ -40,6 +40,10 @@ Instead, we copied their compiled `libchipsea_bias_v235.so` directly into our pr
 ## Downloading the Rebuilt APK
 
 The APK is located in the releases tab. It is also in the "rebuilt_apk" as well and can be installed just like any other APK. 
+
+## Building the App (With Android Studio)
+
+Simply download this repo as a ZIP file and then unzip it. Then open android studio and select the option to import a project and select the unzipped file as the project directory. 
 
 ## Building the App (Without Android Studio)
 
