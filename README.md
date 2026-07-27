@@ -16,6 +16,7 @@ This folder contains two main sections:
 To understand how the original app communicated with the scale, we extracted the APK from an Android device and decompiled it. If you wish to view the original source code, you will need to install **Apktool** (to get the resources, `AndroidManifest.xml`, and native C++ `.so` libraries) and **JADX** (to decompile the `.dex` bytecode into readable Java source code).
 
 **To Decompile the APK Yourself:**
+
 1. Download and install [Apktool](https://ibotpeaches.github.io/Apktool/install/) and [JADX](https://github.com/skylot/jadx).
 2. Open your terminal in the `original_apk/` directory.
 3. Run `apktool d HY-Fit.apk` to extract the resources and `.so` libraries.
@@ -33,6 +34,10 @@ We manually counted the byte offsets in these payloads to figure out exactly whi
 During the decompilation process, we found a native C++ library named `libchipsea_bias_v235.so` bundled inside the APK. Chipsea Technologies is a prominent manufacturer of smart scale chips and Bluetooth modules. Because their algorithms for calculating metrics like Body Fat, Bone Mass, and Visceral Fat from raw electrical impedance are proprietary and closed-source (often referred to as the OKOK SDK), we could not write our own math to match theirs.
 
 Instead, we copied their compiled `libchipsea_bias_v235.so` directly into our project's `app/src/main/jniLibs` folder. By perfectly recreating their Java Native Interface (JNI) class structure, we successfully bridged our open-source Kotlin app to their closed-source C++ algorithm. This ensures our app generates the exact same, accurate health metrics as the original proprietary app!
+
+## Downloading the Rebuilt APK
+
+The APK is located in the releases tab. It is also in the "rebuilt_apk" as well and can be installed just like any other APK. 
 
 ## Building the App (Without Android Studio)
 
