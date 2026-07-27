@@ -1,6 +1,6 @@
 # HY-Fit Reborn
 
-This project is a modern, open-source revival of the proprietary "HY-Fit" smart scale application. It interacts with smart scales powered by Chipsea Technologies Bluetooth LE chipsets, accurately reading raw weight data and utilizing the manufacturer's proprietary algorithm to calculate comprehensive body metrics.
+This project is a modern, open-source revival of the proprietary "HY-Fit" smart scale application. It interacts with smart scales powered by Chipsea Technologies Bluetooth LE chipsets, accurately reading raw weight data and utilizing the manufacturer's proprietary algorithm to calculate comprehensive body metrics. This project was a massive undertaking and I was able to get it complete with the help of google antigravity which was a massive help. 
 
 ## Project Structure
 
