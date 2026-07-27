@@ -43,7 +43,7 @@ The APK is located in the releases tab. It is also in the "rebuilt_apk" as well 
 
 ## Building the App (With Android Studio)
 
-Simply download this repo as a ZIP file and then unzip it. Then open android studio and select the option to import a project and select the unzipped file as the project directory. 
+Simply download this repo as a ZIP file and then unzip it. Then open android studio and select the option to import a project and select the unzipped folder as the project directory. 
 
 ## Building the App (Without Android Studio)
 
