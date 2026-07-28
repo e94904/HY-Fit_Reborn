@@ -1,6 +1,8 @@
 # HY-Fit Reborn
 
-This project is a modern, open-source revival of the proprietary "HY-Fit" smart scale application. It interacts with smart scales powered by Chipsea Technologies Bluetooth LE chipsets, accurately reading raw weight data and utilizing the manufacturer's proprietary algorithm to calculate comprehensive body metrics. 
+This project is a modern, open-source revival of the proprietary "HY-Fit" smart scale application by Tenswall. It interacts with smart scales powered by Chipsea Technologies Bluetooth LE chipsets, accurately reading raw weight data and utilizing the manufacturer's proprietary algorithm to calculate comprehensive body metrics. 
+
+For reference, I was able to get this working with my scale which is the TZ280 model, but I would assume any other scale needing this app should work. 
 
 This project was a massive undertaking and I was able to get it complete with the help of AI assisted tools such as Google Antigravity. 
 
