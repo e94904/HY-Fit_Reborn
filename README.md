@@ -1,5 +1,7 @@
 # HY-Fit Reborn
 
+[View Source Code on GitHub](https://github.com/e94904/HY-Fit_Reborn) | [View Releases](https://github.com/e94904/HY-Fit_Reborn/releases)
+
 This project is a modern, open-source revival of the proprietary "HY-Fit" smart scale application by Tenswall. It interacts with smart scales powered by Chipsea Technologies Bluetooth LE chipsets, accurately reading raw weight data and utilizing the manufacturer's proprietary algorithm to calculate comprehensive body metrics. 
 
 For reference, I was able to get this working with my scale which is the TZ280 model, but I would assume any other scale needing this app should work. 
@@ -21,7 +23,7 @@ To understand how the original app communicated with the scale, we extracted the
 
 **To Decompile the APK Yourself:**
 
-1. Download and install [Apktool](https://ibotpeaches.github.io/Apktool/install/) and [JADX](https://github.com/skylot/jadx).
+1. Download and install [Apktool](https://github.com/ibotpeaches/apktool) and [JADX](https://github.com/skylot/jadx).
 2. Open your terminal in the `original_apk/` directory.
 3. Run `apktool d HY-Fit.apk` to extract the resources and `.so` libraries.
 4. Run `jadx -d out_java HY-Fit.apk` to decompile the Java source code.
